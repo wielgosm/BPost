@@ -9,5 +9,21 @@ It is still under development. Some of it's current features are:
 * Debug functionality  
 * Output as an XLSX spreadsheet  
   
-## Example  ##
+## Requirements ##
+
+There are a few gems that BPost requires. They are:  
+* Net/http  
+* Nokogiri  
+* Open-Uri  
+* Json  
+* Simple_Xlsx  
+
+BPost has been written under and tested with Ruby 1.9.2.  
+
+## Installation ##
+Install the required gems, that's all.  
+  
+  gem install nokogiri  
+  gem install json  
+  gem install simple_xlsx_writer  
 
